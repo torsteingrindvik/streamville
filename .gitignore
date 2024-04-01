@@ -1,0 +1,8 @@
+/target
+/bevy
+
+# Let's opt-in any assets we _want_ to keep, to make sure we don't do bad license choices
+/assets
+
+# Edited live, not meant to have historical significance
+/docs/NOW.md

@@ -1,0 +1,2 @@
+- Use low latency monitoring in OBS?
+    - Tried but there is still a confusing noticable delay (~500ms?)
