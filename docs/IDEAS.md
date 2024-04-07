@@ -40,7 +40,13 @@ Flying loo
 
 ## BRB thing
 
+### Option 1
+
 BRB text flying into/out of screen in happy colors, as a Bevy app (no window)
+
+### Option 2
+
+Foxes spelling out BRB by their position where position is decoded from a font
 
 ## Book of shaders
 
@@ -81,6 +87,20 @@ Generate! Shader!
 ## Foids
 
 It's boids but foxes
+
+## ~~Spiral fox bullet hell~~
+
+_Done: See `bullet-hell.rs`_
+
+Typical bullet-hell outwards spiral thing, but
+each projectile samples Bevy logo where UV is mapped from world pos
+
+## Bevdown / Markevy
+
+Markdown files rendered in Bevy
+
+- Header sizes respected
+- Treesitter syntax highlight?
 
 ### Longer projects
 

@@ -31,3 +31,11 @@ Initialized project, tried inspector. Encountered bug in transparency.
 - Reordered documentation files
 - Started a blender camera plugin
     - Needs zoom
+
+### 2024-04-07
+
+- We did a one evening project: `Spiral fox bullet hell`
+- Added some plugins:
+    - World axes gizmos
+    - Bevy example foxes plugin
+    - Added render util to make images
