@@ -102,6 +102,12 @@ Markdown files rendered in Bevy
 - Header sizes respected
 - Treesitter syntax highlight?
 
+## Shaders following mouse
+
+Desktop mouse pointer has a tail.
+
+This tail spawns visual effects, e.g. fire shader or something.
+
 ### Longer projects
 
 ## Ghost of Tsushima grass

@@ -9,17 +9,7 @@ use streamville::{bevy_example_animated_fox::FoxRenderTarget, prelude::*};
 
 fn main() {
     App::new()
-        // TODO: Move into plugin
-        .add_plugins(DefaultPlugins.set(WindowPlugin {
-            primary_window: Some(Window {
-                transparent: true,
-                decorations: false,
-                window_level: bevy::window::WindowLevel::AlwaysOnTop,
-                position: WindowPosition::At(IVec2::new(1800, 200)),
-                ..default()
-            }),
-            ..default()
-        }))
+        .add_plugins(DefaultPlugins.with_transparent_window_at(IVec2::new(1800, 200)))
         .insert_resource(ClearColor(Color::NONE))
         .insert_resource(Time::<Fixed>::from_duration(Duration::from_millis(5)))
         .add_plugins((
